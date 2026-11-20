@@ -24,3 +24,16 @@ nav ul{
     gap: 16px;
     list-style-type: none;
 }
+
+.pane{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    flex: 1;
+}
+
+.mango{
+    width: 100%;
+}
