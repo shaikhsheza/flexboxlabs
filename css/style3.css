@@ -7,7 +7,7 @@ html, body{
 }
 
 .yellow{
-    background-color: palegoldenrod;
+    background-color: gold;
 }
 
 .blue{
@@ -15,9 +15,35 @@ html, body{
 }
 
 .grey{
-    background-color: slategrey;
+    background-color: lightslategray;
 }
 
-.purple{
-    background-color: slateblue;
+.green{
+    background-color: green;
+}
+
+.container{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer{
+    flex: 0 0 150px;
+}
+
+main{
+    flex: 3;
+}
+
+nav, aside{
+    flex: 1;
+}
+
+.center{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
 }
