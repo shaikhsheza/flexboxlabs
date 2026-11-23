@@ -1,0 +1,23 @@
+html, body{
+    height: 100%;
+}
+
+.red{
+    background-color: tomato;
+}
+
+.yellow{
+    background-color: palegoldenrod;
+}
+
+.blue{
+    background-color: skyblue;
+}
+
+.grey{
+    background-color: slategrey;
+}
+
+.purple{
+    background-color: slateblue;
+}
